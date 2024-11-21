@@ -1,0 +1,108 @@
+/* IMPORTS DE CSS */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('navbar.css');
+@import url('projetos.css');
+@import url('skills.css');
+@import url('sobremim.css');
+
+/* ESTILO DAS PAGINAS */
+section {
+    display: none; /* Todas as seções começam ocultas */
+}
+#inicio {
+    display: block; /* Exibe a seção inicial */
+}
+
+/* CONFIG CSS / INICIO DA PAGINA */
+body {
+    background: linear-gradient(80deg, #00283d, #000508);
+    color: #FFFFFF;
+}
+
+#inicio h1 {
+    font-size: 8rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    margin-left: 1%;
+    border-right: 16px solid #ffe600; /* Criar o "cursor" */
+    white-space: nowrap; /* Impede que o texto quebre linha */
+    overflow: hidden; /* Oculta o texto enquanto ele não aparece */
+    width: 0; /* Começa com a largura 0 */
+    animation: typing 3s steps(30) infinite, mark 0.5s step-end infinite; /* Animação de digitação infinita e do cursor */
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 26ch; /* Define a largura final */
+    }
+}
+
+@keyframes mark {
+    50% {
+        border-right-color: transparent; /* Desaparece o "cursor" */
+    }
+    100% {
+        border-right-color: #ffe600; /* Retorna o "cursor" */
+    }
+}
+
+#inicio span {
+    font-size: 7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    top: -75px;
+    font-weight: bold;
+}
+
+#inicio h2 {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    height: 200px;
+    position: relative;
+    top: -200px;
+    margin-left: 1%;
+    color: black;
+}
+
+#inicio p {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif; 
+    position: relative;
+    top: -350px;
+    margin-left: 1%;
+    margin-bottom: 30px;
+}
+.image-container {
+   display: flex;
+   position: relative;
+   top: -365px;
+   margin-left: 1%
+}
+
+.corner-img {
+    width: 150px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px; /* Arredondar cantos */
+    transition: transform 0.3s ease;
+}
+
+.corner-img:hover {
+    transform: scale(1.1); /* Aumenta levemente ao passar o mouse */
+}
+ .corner2-img {
+     width: 150px; /* Ajuste o tamanho da imagem */
+     height: auto; /* Mantém a proporção */
+     border-radius: 5px; /* Arredondar cantos */
+     transition: transform 0.3s ease;
+     margin-left: 10%
+ }
+ .corner2-img:hover {
+    transform: scale(1.1); /* Aumenta levemente ao passar o mouse */
+}
+ 

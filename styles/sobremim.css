@@ -1,0 +1,23 @@
+#sobremim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sobremim h2 {
+    font-size: 5rem;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 0%;
+}
+
+#sobremim pre {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem; /* Ajuste o espaço abaixo */
+    margin-top: 1rem;    /* Ajuste o espaço acima */
+    padding: 1rem;       /* Ajuste o espaço dentro do elemento */
+    line-height: 2;    /* Ajuste a altura da linha para mais espaçamento entre as linhas */
+    white-space: pre-wrap; /* Faz com que o texto quebre automaticamente se ultrapassar o limite */
+}
