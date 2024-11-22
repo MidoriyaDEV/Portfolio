@@ -20,7 +20,6 @@ html, body {
     margin-bottom: 2rem; /* Espaçamento abaixo do título */
     text-align: center;
 }
-
 .skills-container {
     display: flex;
     position: relative;
@@ -32,7 +31,6 @@ html, body {
     gap: 20px; /* Espaçamento entre as imagens */
     margin: 20px 0; /* Adiciona espaçamento vertical */
 }
-
 .python-img, 
 .css-img, 
 .js-img, 
@@ -57,3 +55,64 @@ body {
     background-color: #0b0e19; /* Fundo escuro */
     overflow-x: hidden; /* Evita rolagem horizontal */
 }
+.ferramentas-container {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-left: 1%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin: 20px 0; /* Adiciona espaçamento vertical */
+}
+.neovim-img, 
+.vscode-img, 
+.github-img {
+    width: 150px; /* Ajuste o tamanho da imagem */
+    height: 150px; /* Mantém a proporção */
+    border-radius: 5px; /* Arredondar cantos */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Indica interatividade */
+}
+
+/* Efeito de hover */
+.neovim-img:hover,
+.vscode-img:hover,
+.github-img:hover {
+    transform: scale(1.1); /* Aumenta levemente a imagem */
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    height: 490px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card>h3 {
+    font-size: 25px;
+    padding-top: 10px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}	
+.card>img {
+    width: 150px;
+    height: 150px;
+}
+.card>p {
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 500px;
+}
+.card:hover{
+    transform: scale(1.1); /* Aumenta levemente a imagem */
+    cursor: pointer;
+}
+

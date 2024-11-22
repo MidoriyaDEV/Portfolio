@@ -16,3 +16,4 @@ navLinks.forEach(link => {
         targetSection.style.display = 'block';
     });
 });
+
