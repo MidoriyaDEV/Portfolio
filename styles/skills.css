@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que a página ocupe toda a altura da tela */
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%; /* Garante que o conteúdo ocupe toda a altura da tela */
+    text-align: center;
+    color: white;
+}
+
+#skills h2 {
+    font-size: 5rem;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 2rem; /* Espaçamento abaixo do título */
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-left: 1%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin: 20px 0; /* Adiciona espaçamento vertical */
+}
+
+.python-img, 
+.css-img, 
+.js-img, 
+.html-img { 
+    width: 150px; /* Ajuste o tamanho da imagem */
+    height: 150px; /* Mantém a proporção */
+    border-radius: 5px; /* Arredondar cantos */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Indica interatividade */
+}
+
+/* Efeito de hover */
+.python-img:hover, 
+.css-img:hover, 
+.js-img:hover, 
+.html-img:hover {
+    transform: scale(1.1); /* Aumenta levemente a imagem */
+}
+
+/* Estilo do fundo da página */
+body {
+    background-color: #0b0e19; /* Fundo escuro */
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
